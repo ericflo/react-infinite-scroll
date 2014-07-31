@@ -55,9 +55,7 @@ In this case, it will depend on `react`.
 - `hasMore` : Boolean stating if we should keep listening to scroll event and
               trying to load more stuff
 
-- `loader` : Loader element to be displayed while loading stuff - You can use
-             `InfiniteScroll.setDefaultLoader(loader);` to set a defaut loader
-             for all your `InfiniteScroll` components
+- `loader` : Loader element to be displayed while loading stuff.
 
 - `threshold` : The distance between the bottom of the page and the bottom of the
                 window's viewport that triggers the loading of new stuff -
